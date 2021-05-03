@@ -1,4 +1,4 @@
-package com.example.tpandroidgestionsinterventions;
+package com.example.tp3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -37,9 +37,9 @@ SQLiteDatabase db;
 
 
         final ArrayList<interventions> interventions = new ArrayList<interventions>();
-        interventions.add(new interventions("Réparation Réseaux","Khémiri Alaeddine","Mahdia","09:00-14:00",false));
+        interventions.add(new interventions("Dev Mobile","Amal Derouich","Bardo","07:00-11:00",false));
         interventions.add(new interventions("Titre Intervention 2","Client 2","Adresse Client 2","07:00-12:00",true));
-$        _lsvInterventions.setAdapter(adaptInterv);
+$        _lsvInterventions.setIntent(adaptInterv);
 
     }
 }
